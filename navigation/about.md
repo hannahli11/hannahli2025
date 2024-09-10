@@ -9,7 +9,7 @@ permalink: /about/
 </head>
 
  <br>
- <p style="color:Plum;">Hi, my name is Hannah Li. I am 17 years old and I am a senior at Del Norte. I enjoy playing basketball, listening to music, and painting. This year as I am applying for college I am going to major in nursing because I enjoy taking care of others and it is something I am passionate about. However, I am taking this class to expand my interests and try new things, I want to see if I would be into computer science and not limit myself just to nursing.</p>
+ <p style="color:Plum;">Hello, my name is Hannah Li. I am 17 years old and I am a senior at Del Norte. I enjoy playing basketball, listening to music, and painting. This year as I am applying for college I am going to major in nursing because I enjoy taking care of others and it is something I am passionate about. However, I am taking this class to expand my interests and try new things, I want to see if I would be into computer science and not limit myself just to nursing.</p>
 
 <img alt="Hannah Picture" src="/hannahli_2025/images/CS Hannah Pic.jpeg" width="230" height="300">    
 
