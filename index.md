@@ -9,18 +9,18 @@ hide: true
 <body>
 <h1 style="color:Purple;">Fitness Regimen</h1>
 
-<div>
+<br><div>
 <button style="border:2px solid Purple;">Categories</button>
 <div>
 
 <!--ab workouts-->
-<div>
+<br><div>
  <a href="http://127.0.0.1:4200/hannahli2025/abs/" style="color:Purple;">Ab Workouts</a>
  
  <div>
 
 <!--leg workouts-->
-<div>
+<br><div>
         <!-- Link with white border -->
         <a href="http://127.0.0.1:4200/hannahli2025/legs/" style="color:Purple;">Leg Workouts</a>
         
