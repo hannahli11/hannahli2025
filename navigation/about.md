@@ -38,3 +38,11 @@ permalink: /about/
 
  <div>
  <body style="background-color:Thistle;">
+
+ <script src="https://utteranc.es/client.js"
+        repo="hannahli11/hannahli2025/"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
