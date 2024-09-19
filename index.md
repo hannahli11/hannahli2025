@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Student Home 
+title: Fitness Workouts 
 description: Home Page
 hide: true
 ---

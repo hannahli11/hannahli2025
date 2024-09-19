@@ -5,7 +5,7 @@ github_username: hannahli11
 github_repo: "hannahli2025" 
 baseurl: "/hannahli2025"
 future: true
-remote_theme: jekyll/minima
+remote_theme: pages-themes/cayman@v0.2.0
 minima:
   skin: dark
   social_links:
