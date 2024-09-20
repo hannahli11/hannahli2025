@@ -15,14 +15,14 @@ hide: true
 
 <!--ab workouts-->
 <br><div>
- <a href="http://127.0.0.1:4200/hannahli2025/abs/" style="color:Purple;">Ab Workouts</a>
+ <a href="http://127.0.0.1:4200/hannahli2025/abs/" style="color:Purple;" style="border:2px solid Purple;">Ab Workouts</a>
  
  <div>
 
 <!--leg workouts-->
 <br><div>
         <!-- Link with white border -->
-        <a href="http://127.0.0.1:4200/hannahli2025/legs/" style="color:Purple;">Leg Workouts</a>
+        <a href="http://127.0.0.1:4200/hannahli2025/legs/" style="color:Purple;" style="border:2px solid Purple;">Leg Workouts</a>
         
 </div>
 
