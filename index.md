@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Fitness Workouts 
-description: Home Page
+description: Workouts You Can Do!
 hide: true
 ---
 
