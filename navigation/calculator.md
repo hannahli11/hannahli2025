@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Calculator
-description: To solve stuff
+description: For Math Work
 permalink: /calculator/
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cookie Clicker
-description: To solve stuff
+description: Click the Cookie!
 permalink: /cookieclicker/
 
 ---
