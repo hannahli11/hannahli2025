@@ -6,10 +6,7 @@ permalink: /wordle/
 
 ---
 {% include nav/home.html %}
-
-
-<script>
-    <style>
+<style>
     body.light-theme {
         background-color: white;
         color: black;
@@ -48,7 +45,7 @@ permalink: /wordle/
         margin-top: 20px;
     }
 
-.letter-box {
+    .letter-box {
         width: 60px;
         height: 60px;
         display: flex;
