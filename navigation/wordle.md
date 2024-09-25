@@ -9,6 +9,45 @@ permalink: /wordle/
 
 
 <script>
+    <style>
+    body.light-theme {
+        background-color: white;
+        color: black;
+    }
+
+    body.dark-theme {
+        background-color: #333;
+        color: white;
+    }
+
+    body.blue-theme {
+        background-color: #007acc;
+        color: white;
+    }
+
+    body.red-theme {
+        background-color: #ff4c4c;
+        color: white;
+    }
+
+    body.green-theme {
+        background-color: #28a745;
+        color: white;
+    }
+
+    body.grey-theme {
+        background-color: #aaa;
+        color: white;
+    }
+
+    #game-board {
+        display: grid;
+        grid-template-columns: repeat(5, 60px);
+        gap: 10px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
 .letter-box {
         width: 60px;
         height: 60px;
