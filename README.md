@@ -5,16 +5,6 @@ Welcome to my personal GitHub repository for the 2025 AP Computer Science Princi
 The repository is organized using Jekyll and GitHub Pages to create a public-facing, interactive portfolio of my learning journey in computer science.
 
 ---
-
-## 🧭 Student Requirements
-
-This repository serves as a digital portfolio that will be evaluated during midterms and finals. It includes:
-
-- Classroom labs and hacks  
-- Weekly reflections and notes  
-- Backend/Frontend projects  
-- Final projects  
-
 ### 💡 Ways to Share and Collaborate
 
 1. Share `.ipynb` files using raw links  
