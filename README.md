@@ -65,9 +65,11 @@ To deploy the site:
 ```yaml
 github_repo: "hannahli2025"
 baseurl: "/hannahli2025"
+```
+
 ---
 
-**## 🔧 Tool Requirements**
+## 🔧 Tool Requirements
 
 - **Jekyll** – Static site generator that converts notebooks to blogs  
 - **VSCode** – Editor for markdown, Python, and HTML  
@@ -84,11 +86,13 @@ baseurl: "/hannahli2025"
 ```bash
 git clone https://github.com/hannahli2025/hannahli2025.git
 cd hannahli2025/scripts
+```
 
 ## 🍎 macOS Activation
 
 ```bash
 ./activate_macos.sh
+```
 
 ## 🛠️ Run Server on Localhost
 
@@ -98,6 +102,7 @@ To install project dependencies:
 
 ```bash
 bundle install
+```
 
 ## ▶️ Start Jekyll Server
 
@@ -105,6 +110,7 @@ bundle install
 
 ```bash
 make
+```
 
 ## 🧼 Other Commands
 
@@ -134,6 +140,7 @@ To add categories in your Markdown post’s front matter:
 
 ```yaml
 categories: [Tools]
+```
 
 To hide a post from site search results:
 
@@ -147,6 +154,7 @@ navbar:
 
 ```html
 <td><a href="{{site.baseurl}}/newpage" style="color: purple;">New Page</a></td>
+```
 
 ## 🖼️ Blog Images and Metadata
 
@@ -156,28 +164,33 @@ navbar:
 image: /images/dna-quiz.png
 title: "DNA Game Project"
 description: "Base pair logic, quiz modal, and visual design"
+```
 
 ## 🎨 Themes and Layouts
 ### Set the layout of a post:
 
 ```yaml
 layout: post
+```
 
 Customize styles using:
 
 ```bash
 _sass/minima/custom-styles.scss
+```
 
 Create or edit page layouts in:
 
 ```bash
 _layouts/
+```
 
 ## 🔁 Includes and Liquid Syntax
 ### To dynamically include a list of posts:
 
 ```liquid
 {% include post_list.html %}
+```
 
 This pulls in reusable or dynamic content like blog previews or navigation items.
 
@@ -193,6 +206,7 @@ comments: true
 courses: { csp: {week: 5} }
 type: ccc
 ---
+```
 ## 📋 Front Matter Field Reference
 
 | Field     | Purpose                                      |
