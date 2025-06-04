@@ -34,12 +34,10 @@ This project is distributed under the MIT License. You're free to reuse and adap
 
 ## ⚙️ Key Features
 
-- ✍️ Notebooks and markdown-based blog posts  
-- 🕹️ Interactive biotech-themed games  
-- 🎨 Tailwind-based frontend UI design  
-- 🔌 Gemini AI API for trivia generation  
-- 🚀 GitHub Actions for continuous deployment  
-- 📂 Organized layout for lessons and topics  
+- Notebooks and markdown-based blog posts  
+- GitHub Actions for continuous deployment  
+- Organized layout for homeworks and blogs
+- Fun features in navbar
 
 ---
 
