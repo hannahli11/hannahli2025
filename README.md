@@ -65,8 +65,9 @@ To deploy the site:
 ```yaml
 github_repo: "hannahli2025"
 baseurl: "/hannahli2025"
+---
 
-## 🔧 Tool Requirements
+**## 🔧 Tool Requirements**
 
 - **Jekyll** – Static site generator that converts notebooks to blogs  
 - **VSCode** – Editor for markdown, Python, and HTML  
