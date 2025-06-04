@@ -88,6 +88,7 @@ git clone https://github.com/hannahli2025/hannahli2025.git
 cd hannahli2025/scripts
 ```
 
+
 ## 🍎 macOS Activation
 
 ```bash
@@ -111,6 +112,59 @@ bundle install
 ```bash
 make
 ```
+## Development Support
+
+### File Names in "_posts", "_notebooks"
+
+There are two primary directories for creating blogs.  The "_posts" directory is for authoring in markdown only.  The "_notebooks" allows for markdown, pythons, javascript and more.
+
+To name a file, use the following structure (If dates are in the future, review your config.yml setting if you want them to be viewed).  Review these naming conventions.
+
+- For markdown files in _posts:
+  - year-month-day-fileName.md
+    - GOOD EXAMPLE: 2021-08-02-First-Day.md
+    - BAD EXAMPLE: 2021-8-2-first-day.md
+    - BAD EXAMPLE: first-day.md
+    - BAD EXAMPLE: 2069-12-31-First-Day.md
+
+- For Jupyter notebooks in _notebooks:
+  - year-month-day-fileName.ipynb
+    - GOOD EXAMPLE: 2021-08-02-First-Day.ipynb
+    - BAD EXAMPLE: 2021-8-2-first-day.ipynb
+    - BAD EXAMPLE: first-day.ipynb
+    - BAD EXAMPLE: 2069-12-31-First-Day.ipynb
+      
+### Tags
+
+Tags are used to organize pages by their tag the way to add tags is to add the following to your front matter such as the example seen here `categories: [Tools]` Each item in the same category will be lumped together to be seen easily on the search page.
+
+### Search
+
+All pages can be searched for using the built-in search bar. This search bar will search for any word in the title of a page or in the page itself. This allows for easily finding pages and information that you are looking for. However, sometimes this may not be desirable so to hide a page from the search you need to add `search_exclude: true` to the front matter of the page. This will hide the page from appearing when the viewer uses search.
+
+### Navigation Bar
+
+To add pages to the top navigation bar use _config.yml to order and determine which menus you want and how to order them.  Review the_config.yml in this project for an example.
+
+### Blog Page
+
+There is a blog page that has options for images and a description of the page. This page can help the viewer understand what the page is about and what they can expect to find on the page. The way to add images to a page is to have the following front matter `image: /images/file.jpg` and then the name of the image that you want to use. The image must be in the `images` folder. Furthermore, if you would like the file to not show up on the blog page `hide: true` can be added to the front matter.
+
+### SASS support
+
+NIGHTHAWK Pages support a variety of different themes that are each overlaid on top of minima. To use each theme, go to the "_sass/minima/custom-styles.scss" file and simply comment or uncomment the theme you want to use.
+
+To learn about the minima themes search for "GitHub Pages minima" and review the README.
+
+To find a new theme search for "GitHub Pages Themes".
+
+### Includes
+
+- Nighthawk Pages uses liquid syntax to import many common page elements that are present throughout the repository. These common elements are imported from the _includes directory. If you want to add one of these common elements, use liquid syntax to import the desired element to your file. Here’s an example of the liquid syntax used to import: `{%- include post_list.html -%}` Note that the liquid syntax is surrounded by curly braces and percent signs. This can be used anywhere in the repository.
+
+### Layouts
+
+- To use or create a custom page layout, make an HTML page inside the _layouts directory, and when you want to use that layout in a file, use the following front matter `layout: [your layout here]`.  All layouts will be written in liquid to define the structure of the page.
 
 ## 🧼 Other Commands
 
