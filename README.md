@@ -5,12 +5,12 @@ Welcome to my personal GitHub repository for the 2025 AP Computer Science Princi
 The repository is organized using Jekyll and GitHub Pages to create a public-facing, interactive portfolio of my learning journey in computer science.
 
 ---
-### 💡 Ways to Share and Collaborate
+### Next Steps
 
-1. Share `.ipynb` files using raw links  
-2. Use this template as your personal base  
-3. Fork/clone to work on group projects  
-4. Blog regularly to document development  
+1. Make design cleaner
+2. Fix errors in features
+3. Organize all notebooks in blogs
+4. Update everything
 
 ---
 
