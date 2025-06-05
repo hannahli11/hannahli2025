@@ -14,7 +14,7 @@ The repository is organized using Jekyll and GitHub Pages to create a public-fac
 
 ---
 
-## 🕰️ History
+## History
 
 This project is based on the third generation of Nighthawk Pages and uses:
 
@@ -26,13 +26,13 @@ This project is based on the third generation of Nighthawk Pages and uses:
 
 ---
 
-## 📄 License
+## License
 
 This project is distributed under the MIT License. You're free to reuse and adapt this content for educational purposes.
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 
 - Notebooks and markdown-based blog posts  
 - GitHub Actions for continuous deployment  
@@ -41,7 +41,7 @@ This project is distributed under the MIT License. You're free to reuse and adap
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Although this is an individual portfolio, many features support collaborative work:
 
@@ -52,7 +52,7 @@ Although this is an individual portfolio, many features support collaborative wo
 
 ---
 
-## 🌐 GitHub Pages Setup
+## GitHub Pages Setup
 
 To deploy the site:
 
@@ -67,7 +67,7 @@ baseurl: "/hannahli2025"
 
 ---
 
-## 🔧 Tool Requirements
+## Tool Requirements
 
 - **Jekyll** – Static site generator that converts notebooks to blogs  
 - **VSCode** – Editor for markdown, Python, and HTML  
@@ -77,9 +77,9 @@ baseurl: "/hannahli2025"
 
 ---
 
-## 💻 Development Environment Setup
+## Development Environment Setup
 
-### 📥 Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/hannahli2025/hannahli2025.git
@@ -87,13 +87,13 @@ cd hannahli2025/scripts
 ```
 
 
-## 🍎 macOS Activation
+## macOS Activation
 
 ```bash
 ./activate_macos.sh
 ```
 
-## 🛠️ Run Server on Localhost
+## Run Server on Localhost
 
 ### 🔁 One-Time Bundle Install
 
@@ -103,7 +103,7 @@ To install project dependencies:
 bundle install
 ```
 
-## ▶️ Start Jekyll Server
+## Start Jekyll Server
 
 ### To start the Jekyll server:
 
@@ -164,7 +164,7 @@ To find a new theme search for "GitHub Pages Themes".
 
 - To use or create a custom page layout, make an HTML page inside the _layouts directory, and when you want to use that layout in a file, use the following front matter `layout: [your layout here]`.  All layouts will be written in liquid to define the structure of the page.
 
-## 🧼 Other Commands
+## Other Commands
 
 Useful Makefile commands for local development:
 
@@ -174,9 +174,9 @@ Useful Makefile commands for local development:
 | Clean Build       | `make clean`  |
 | Convert Notebooks | `make convert`|
 
-## 🗂️ Development Support & Structure
+## Development Support & Structure
 
-### 🗃️ File Naming Format
+### File Naming Format
 
 File naming for consistency:
 
@@ -186,7 +186,7 @@ File naming for consistency:
 ✅ Use real dates  
 🚫 Don't use future dates or special characters in filenames
 
-## 🏷️ Tags and Categories
+## Tags and Categories
 
 To add categories in your Markdown post’s front matter:
 
@@ -198,7 +198,7 @@ To hide a post from site search results:
 
 search_exclude: true
 
-## 🧭 Navigation Bar Configuration
+## Navigation Bar Configuration
 
 ### To customize the navbar, edit nav/home.html:
 
@@ -208,7 +208,7 @@ navbar:
 <td><a href="{{site.baseurl}}/newpage" style="color: purple;">New Page</a></td>
 ```
 
-## 🖼️ Blog Images and Metadata
+## Blog Images and Metadata
 
 ### To include metadata and images in the front matter of your blog post:
 
@@ -218,7 +218,7 @@ title: "DNA Game Project"
 description: "Base pair logic, quiz modal, and visual design"
 ```
 
-## 🎨 Themes and Layouts
+## Themes and Layouts
 ### Set the layout of a post:
 
 ```yaml
@@ -237,7 +237,7 @@ Create or edit page layouts in:
 _layouts/
 ```
 
-## 🔁 Includes and Liquid Syntax
+## Includes and Liquid Syntax
 ### To dynamically include a list of posts:
 
 ```liquid
@@ -259,7 +259,7 @@ courses: { csp: {week: 5} }
 type: ccc
 ---
 ```
-## 📋 Front Matter Field Reference
+## Front Matter Field Reference
 
 | Field     | Purpose                                      |
 |-----------|----------------------------------------------|
