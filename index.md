@@ -1,32 +1,11 @@
 ---
 layout: base
-title: Fitness Workouts 
-description: Workouts You Can Do!
+title: Hannah Li's Personal Repository
+description: Blogs, homeworks, and other features
 hide: true
 ---
 
 {% include nav/home.html %}
-<body>
-<h1 style="color:Purple;">Fitness Regimen</h1>
-
-<br><div>
-<button style="border:2px solid Purple;">Categories</button>
-<div>
-
-<!--ab workouts-->
-<br><div>
- <a href="http://127.0.0.1:4200/hannahli2025/abs/" style="color:Purple;" style="border:2px solid Purple;">Ab Workouts</a>
- 
- <div>
-
-<!--leg workouts-->
-<br><div>
-        <!-- Link with white border -->
-        <a href="http://127.0.0.1:4200/hannahli2025/legs/" style="color:Purple;" style="border:2px solid Purple;">Leg Workouts</a>
-        
-</div>
-
-<img alt="Working Out" src="/hannahli2025/images/cs exercise.jpg" width="400" height="200">
 
 
 <div>
